@@ -56,7 +56,7 @@ session.add(restaurant2)
 
 # Create some customers instances
 customer1 = Customer(first_name="Ibrahim", last_name="Moh")
-customer2 = Customer(first_name="Zlatan", last_name="Adm")
+customer2 = Customer(first_name="Zlatan", last_name="Admin")
 
 
 #create the sessions
