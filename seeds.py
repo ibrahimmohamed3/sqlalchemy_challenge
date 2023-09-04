@@ -1,6 +1,6 @@
-from seeds import Restaurant
-from seeds import Customer
-from seeds import Review
+from model import Restaurant
+from model import Customer
+from model import Review
 
 # Make the restaurant instances
 restaurant1 = Restaurant(name="Kempinsky", price=2)
