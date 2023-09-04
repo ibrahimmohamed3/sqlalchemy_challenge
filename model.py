@@ -13,7 +13,7 @@ Base = declarative_base()
 class Restaurant(Base):
     __tablename__ = 'restaurants'
 
-    id = Column(Integer, Sequence('restaurant_id_seq'), primary_key=True)
+    id = Column(Integer, primary_key=True)
     name = Column(String(255))
     price = Column(Integer)
 
@@ -23,7 +23,7 @@ class Restaurant(Base):
 class Customer(Base):
     __tablename__ = 'customers'
 
-    id = Column(Integer, Sequence('customer_id_seq'), primary_key=True)
+    id = Column(Integer, primary_key=True)
     first_name = Column(String(255))
     last_name = Column(String(255))  
 
@@ -31,7 +31,7 @@ class Customer(Base):
 class Review(Base):
     __tablename__ = 'reviews'
 
-    id = Column(Integer, Sequence('review_id_seq'), primary_key=True)
+    id = Column(Integer, primary_key=True)
     restaurant_id = Column(Integer, ForeignKey('restaurants.id'))
     customer_id = Column(Integer, ForeignKey('customers.id'))
     rating = Column(Integer)
