@@ -51,7 +51,7 @@ restaurant2 = Restaurant(name="Hilton", price=3)
 session.add(restaurant1)
 session.add(restaurant2)
 
-# Create some customers
+# Create some customers instances
 customer1 = Customer(first_name="Ibrahim", last_name="Moh")
 customer2 = Customer(first_name="Zlatan", last_name="Adm")
 session.add(customer1)
