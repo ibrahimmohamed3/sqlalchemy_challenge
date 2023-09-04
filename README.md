@@ -28,7 +28,7 @@
 
 [Go Back to the top]
 ## Technology Used
-* Python - which was used to build the code.
+* Python - which was used to execute the code.
 
 
 ## Licence
